@@ -187,7 +187,7 @@
 <Requirement-2.2.2>
 	a sh:NodeShape ;
 	sh:targetClass skos:Collection ;
-    sh:xone (
+    sh:or (
         [
             sh:path prov:wasDerivedFrom ;
             sh:minCount 1 ;
@@ -274,7 +274,7 @@
 <Requirement-2.3.4>
 	a sh:NodeShape ;
 	sh:targetClass skos:Collection ;
-        sh:xone (
+        sh:or (
             [
                 sh:path prov:wasDerivedFrom ;
                 sh:minCount 1 ;
